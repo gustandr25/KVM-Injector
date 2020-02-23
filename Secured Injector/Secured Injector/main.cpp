@@ -32,8 +32,7 @@ void checkdebug()
 {
 	if (IsDebuggerPresent())
 	{
-		Sleep(10);
-		//exit(1);
+		exit(1);
 	}
 }
 
